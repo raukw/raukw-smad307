@@ -1,0 +1,47 @@
+*
+{
+    background-color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 2%;
+}
+
+h1 {
+    font-size: 45px;
+    color: #844199;
+}
+
+h2 {
+    font-size: 34px;
+    color: #a973b1;
+}
+
+h3 {
+    font-size: 18px;
+    color: #a973b1;
+    font-style: italic;
+    padding-left: 2%;
+}
+
+p, li {
+    font-size: 14px;
+    font-style: italic;
+}
+
+li {
+    list-style: square;
+}
+
+p {
+    padding-left: 4%
+}
+
+#portrait {
+    height: 600px;
+    width: 400px;
+    float: right;
+    margin-right: 10%;
+}
+
+a:visited {
+    color: #844199;
+}
