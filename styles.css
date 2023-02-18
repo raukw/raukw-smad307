@@ -2,12 +2,12 @@
 {
     background-color: aliceblue;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin-left: 2%;
 }
 
 h1 {
     font-size: 45px;
     color: #844199;
+    letter-spacing: 3px;
 }
 
 h2 {
@@ -27,8 +27,13 @@ p, li {
     font-style: italic;
 }
 
-li {
-    list-style: square;
+#contactList {
+    list-style: none;
+}
+
+.resumeList {
+    list-style-image: url(check.png);
+    line-height: 20px;
 }
 
 p {
@@ -42,6 +47,52 @@ p {
     margin-right: 10%;
 }
 
+a {
+    color: black;
+    transition: 0.35s;
+}
+
 a:visited {
     color: #844199;
+}
+
+a:hover {
+    color:#844199;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+.resumeContent {
+    margin-left: 2%;
+}
+
+
+.questions {
+    text-align: center;
+    background-image: url(multnomah.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 400px;
+}
+
+.questions h2 {
+    background: transparent;
+    color: black;
+    font-size: 40px;
+    padding-top: 100px;
+}
+
+.questions a {
+    background: transparent;
+    text-decoration: underline;
+    font-style: italic;
+    color: black;
+    font-size: 25px;
+}
+
+.questions a:hover {
+    color:#844199;
 }
