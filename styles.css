@@ -1,35 +1,43 @@
-.packet {
-    text-decoration: none;
-    color: white;
-}
-
-.videos {
-    margin: 10px;
-}
-
-.videos h5 {
-    text-decoration: underline;
-}
-
-.videos a {
-    text-decoration: none;
-    font-weight: bold;
-    color:darkgreen;
-}
-
-.videos a:hover {
-    color: green;
-}
-
-nav {
-    height: 70px;
-}
-
 body {
-    background-color: aliceblue;
+    background-color: #F0FFCe;
+    font-family: 'Roboto Condensed';
+    
+}
+.navbar {
+    height: 80px;
+    background-color: #A53F2B;
 }
 
-#faqContent {
-    margin-left: 20%;
-    margin-right: 20%;
+.nav-link {
+    font-size: 21px;
+    color:bisque;
 }
+
+.navbar-brand {
+    font-size: 28px;
+    padding-left: 5%;
+    padding-right: 3%;
+}
+
+.navbar-nav {
+    background-color: #A53F2B;
+}
+
+.btn-custom {
+    border-color: #A53F2B;
+    color:#A53F2B
+}
+
+.btn-custom:hover {
+    background-color: #A53F2B;
+    color: bisque;
+}
+
+.bg-bb {
+    background-color: #280004;
+}
+
+.bg-sage {
+    background-color: #ccc9a1;
+}
+
