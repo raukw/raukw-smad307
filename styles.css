@@ -41,3 +41,13 @@ body {
     background-color: #ccc9a1;
 }
 
+.torCard {
+    border-color: #A53F2B;
+    border-width: 3px;
+    background-color: rgba(214, 200, 182, 0.475);
+    font-size: 17px;
+}
+
+.torCard h5 {
+    font-size: 28px;
+}
