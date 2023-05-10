@@ -1,8 +1,8 @@
 body {
     background-color: #F0FFCe;
-    font-family: 'Roboto Condensed';
-    
+    font-family: 'Roboto Condensed';   
 }
+
 .navbar {
     height: 80px;
     background-color: #A53F2B;
@@ -23,12 +23,14 @@ body {
     background-color: #A53F2B;
 }
 
-.btn-custom {
+.btn-custom, button a {
     border-color: #A53F2B;
-    color:#A53F2B
+    color:#A53F2B;
+    text-decoration: none;
+    background: none;
 }
 
-.btn-custom:hover {
+.btn-custom:hover, button a:hover {
     background-color: #A53F2B;
     color: bisque;
 }
